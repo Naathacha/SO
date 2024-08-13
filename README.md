@@ -42,6 +42,9 @@ Os computadores pessoais (PCs) se tornaram comuns, trazendo a computação para 
 
 ## Revisão sobre hardware de computadores
 
+Um sistema operacional está intimamente ligado ao hardware do computador no qual ele é executado. Ele estende o conjunto de instruções do computador e gerência seus recursos. Para funcionar, ele deve conhecer profundamente o hardware, pelo menos como aparece para o programador. Conceitualmente, um computador pessoal simples pode ser abstraído em um modelo que lembra A CPU, memória e dispositivos de E/S(entrada/saída) estão todos conectados por um sistema de barramento e comunicam-se uns com os outros sobre ele.
+
+
 ### CPU
 A CPU, o "cérebro" do computador, executa programas ao buscar, decodificar e executar as instruções armazenadas na memória, repetindo esse processo até o programa terminar. Cada CPU tem um conjunto específico de instruções que pode executar, e diferentes tipos de CPUs, como x86 e ARM, não podem entender as instruções umas das outras. Como acessar a memória é mais lento do que executar instruções, a CPU usa registradores internos para armazenar temporariamente dados e resultados. Além desses registradores gerais, que ajudam a guardar variáveis e resultados temporários, há também registradores especiais. O contador de programa indica a próxima instrução a ser executada, o ponteiro de pilha gerencia a pilha de chamadas de funções e armazena informações temporárias e variáveis locais, e o PSW (Palavra de Status do Programa) contém informações sobre o estado do programa e as condições de execução. O sistema operacional precisa gerenciar esses registradores, especialmente quando troca entre diferentes programas. Ele deve salvar o estado dos registradores para poder retomar o programa exatamente de onde parou quando voltar a executá-lo.
 

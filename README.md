@@ -16,6 +16,7 @@ Um sistema operacional é o software que controla e facilita o uso do computador
 - 🗂️ Cria abstrações para simplificar tarefas complexas, como trabalhar com arquivos, em vez de lidar diretamente com o hardware.
 
 O objetivo principal é entender como essas abstrações facilitam o uso do computador e dos aplicativos.
+![SO1](https://github.com/user-attachments/assets/81cf03cc-6e96-4a73-9155-dfebb961c7d2)
 
 ## História dos Sistemas Operacionais
 
